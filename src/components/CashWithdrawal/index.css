@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bg-container {
+  background-color: #150b3e;
+  width: 400px;
+  border-radius: 5px;
+  padding: 50px;
+  margin-top: 100px;
+}
+
+.first-line {
+  display: flex;
+  flex-direction: row;
+}
+
+.s-name {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 6px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.person-name {
+  color: #d4d2db;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.balance {
+  font-weight: bold;
+  font-size: 19px;
+  color: #382f5a;
+  margin-top: 10px;
+}
+
+.amount-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.amount {
+  color: #d4d2db;
+  font-weight: 400;
+}
+
+.rupees {
+  font-size: 15px;
+  color: #382f5a;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.withdraw-heading {
+  color: #d4d2db;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.choose-sum {
+  font-size: 14px;
+  font-weight: bold;
+  color: #382f5a;
+  margin-top: 15px;
+}

@@ -1,0 +1,20 @@
+.button {
+  width: 42%;
+  margin: 10px;
+  height: 30px;
+  background-color: #585076;
+  border: 1px solid #c7d2fe;
+  border-radius: 4px;
+  color: #d4d2db;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 24px;
+  }
+}
+
+.list-item {
+  list-style-type: none;
+}
